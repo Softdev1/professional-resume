@@ -210,17 +210,17 @@ export default function Home() {
           <div className="space-y-12 lg:space-y-16">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 animate-fade-in-up [animation-delay:0.2s] opacity-0 [animation-fill-mode:forwards]">
               <h2 className="text-3xl sm:text-4xl font-light">Selected Work</h2>
-              <div className="text-sm text-muted-foreground font-mono">2019 — 2025</div>
+              <div className="text-sm text-muted-foreground font-mono">2017 — 2025</div>
             </div>
 
             <div className="space-y-8 lg:space-y-12">
               {[
                 {
                   year: "2023",
-                  role: "Senior Frontend Engineer",
-                  company: "Vercel",
+                  role: "Senior Product Manager ",
+                  company: "NITDA",
                   description: "Leading frontend architecture for developer tools and AI-powered features.",
-                  tech: ["React", "TypeScript", "Next.js"],
+                  tech: ["Powersapp", "Communication", "Strategic Planning", "Design"],
                 },
                 {
                   year: "2022",
@@ -237,6 +237,13 @@ export default function Home() {
                   tech: ["Ruby", "React", "PostgreSQL"],
                 },
                 {
+                  year: "2019",
+                  role: "Software Engineer",
+                  company: "Airbnb",
+                  description: "Created booking flow optimizations and host management tools.",
+                  tech: ["React", "Node.js", "MySQL"],
+                },
+                 {
                   year: "2019",
                   role: "Software Engineer",
                   company: "Airbnb",
@@ -423,7 +430,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 lg:gap-8">
             <div className="space-y-2">
               <div className="text-sm text-muted-foreground">© 2025 OGBAJE Stephen. All rights reserved.</div>
-              <div className="text-xs text-muted-foreground">Built with Next.js and deployed on Vercel</div>
+              <div className="text-xs text-muted-foreground">Built by Sir Steve</div>
             </div>
 
             <div className="flex items-center gap-3 lg:gap-4">
